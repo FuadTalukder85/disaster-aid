@@ -10,3 +10,20 @@ body {
   color: var(--foreground);
   font-family: Poppins;
 }
+@layer components {
+  .text-primary {
+    color: #01587f;
+  }
+  .text-red {
+    color: #ee3a43;
+  }
+  .bg-primary {
+    background-color: #01587f;
+  }
+  .bg-red {
+    background-color: #ee3a43;
+  }
+  .border-red {
+    border-color: #ee3a43;
+  }
+}
