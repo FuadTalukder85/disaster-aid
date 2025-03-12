@@ -17,13 +17,28 @@ body {
   .text-red {
     color: #ee3a43;
   }
+  .hover\:text-primary {
+    color: #01587f;
+  }
+  .hover\:text-red {
+    color: #ee3a43;
+  }
   .bg-primary {
     background-color: #01587f;
   }
   .bg-red {
     background-color: #ee3a43;
   }
+  .hover\:bg-primary {
+    background-color: #01587f;
+  }
+  .hover\:bg-red {
+    background-color: #ee3a43;
+  }
   .border-red {
     border-color: #ee3a43;
+  }
+  .text-shadow {
+    text-shadow: 3px 3px 2px rgba(238, 58, 37, 1);
   }
 }

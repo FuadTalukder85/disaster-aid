@@ -1,10 +1,10 @@
 import React from "react";
-import Register from "./register/page";
+import Banner from "@/components/Banner";
 
 const page = () => {
   return (
     <div>
-      <Register />
+      <Banner></Banner>
     </div>
   );
 };

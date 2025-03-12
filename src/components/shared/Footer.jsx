@@ -7,6 +7,7 @@ import { SlSocialPintarest } from "react-icons/sl";
 import Container from "../Container";
 import logo from "../../../public/disaster-aid-02.png";
 import Image from "next/image";
+import BtnPrimary from "./BtnPrimary";
 
 const Footer = () => {
   return (
@@ -19,9 +20,7 @@ const Footer = () => {
               Nulla ultricies justo sit amet ante efficitur, eget pharetra augue
               efficitur. Vestibulum viverra, dolor sit amet ultricies.
             </p>
-            <button className="bg-red px-6 py-2 mt-6 text-white uppercase font-semibold focus:outline-none">
-              Donate Now
-            </button>
+            <BtnPrimary>Donate Now</BtnPrimary>
           </div>
           <div className="col-span-2 text-white ms-10">
             <h5 className="text-xl font-semibold">Service</h5>
